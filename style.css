@@ -1,0 +1,95 @@
+*{
+    background-color: rgb(10, 10, 10);
+}
+.invert{
+    filter: invert(1);
+}
+.trans{
+    background: transparent;
+    border: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-1{
+    height: 40px;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.homes{
+    border: 2px solid rgb(0, 0, 0);
+    width: 43px;
+    height: 43px;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 49, 49);
+}
+.nav-1 img{
+     width: 24px;
+    height: 24px;
+    display: block; 
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download span{
+    color: white;
+}
+.nav-2{
+    color: rgb(0, 0, 0);
+    border:2px;
+    background-color:white;
+    border-radius: 23px;
+    height: 30px;
+}
+.profile {
+    color: white;
+    border: 2px solid rgb(101, 107, 93);
+    border-radius: 50px;
+    border-width: 3px;
+    width: 40px;
+}
+.input{
+    background: transparent;
+    border: 2px solid;
+    border-radius: 23px;
+    align-items: center;
+    color: white;
+    width: 200px;
+}
+.search-box{
+    border: 2px solid rgb(59, 55, 55);
+    border-radius: 30px;
+    display: flex;
+    height: 30px;
+    
+}
+.home{
+    display: flex;
+    row-gap: 23px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+.Install{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    gap: 20px;
+}
