@@ -93,3 +93,53 @@
     left: 50px;
     gap: 20px;
 }
+.left-sidebar{
+    border: 2px solid #121212;
+    border-radius: 12px;
+    width: 360px;
+    height: 80vh;
+    background-color: #121212;
+    margin: 12px;
+}
+.library{
+display: flex;
+background-color: #121212;
+justify-content: space-around;
+align-items: center;
+
+}
+.libsec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #121212;
+    margin: 10px;
+}
+.rightlib{
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    gap: 5px;
+    margin: 10px;
+}
+.Artists,p{
+    color: white;
+    background-color: #121212;
+}
+.logo{
+    border: 2px solid rgb(5, 5, 5);    
+    border-radius: 50px;
+    height: 30px;
+    background-color: #121212;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    outline: 50px;
+    object-fit:cover;
+}
+.headlogo {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+}
+
