@@ -4,6 +4,10 @@
 .invert{
     filter: invert(1);
 }
+.spotify_container{
+    width: 100%;
+    
+}
 .trans{
     background: transparent;
     border: none;
@@ -142,4 +146,40 @@ align-items: center;
     align-items: center;
     background-color: #121212;
 }
+.right-sidebar{
+    background-color: #121212;
+    border: 8px solid #121212;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    position: relative;
+    flex-shrink: 0;
+    left: 1170px;
+    bottom: 484px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.imgedit{
+    border: 2px ;
+    width: 280px;
+    height: 220px;
+    border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
 
+}
+@media (min-width: 900px) {
+
+    .right-sidebar {
+        display: flex;
+        flex-direction: column;
+    }
+    .spotify-container{
+        display: flex;
+flex-direction: column;
+    }
+
+}
